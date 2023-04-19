@@ -3,6 +3,19 @@
 .ajusteImagen{
     width: 36px
 }
+.separacionIcon{
+  margin: 16px;
+}
+.colorNavbar{
+background-color: #ffc107;
+
+}
+body{
+  padding-top: 42px; 
+ 
+
+}
+
 /* Los estilos THE CAROUSEL ofrecidos por Bootstrap Ejemplos ⇓
 -------------------------------------------------- */
 /*Esta clase ajusta imagen carrusel*/
