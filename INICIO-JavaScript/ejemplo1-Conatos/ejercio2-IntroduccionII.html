@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion-Mensajes escritos y visuales</title>
+    
+    <!--
+        Configurcion del sweetAlert ⇓
+    -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+
+<body class="cambioColor">
+
+    <script>
+
+        /*
+        cosole.log();
+        Es otro manera de ofrecer informacion y contenido desde otro entorno
+        de no visualizacion al usario.
+        Será mostrado en la consola del Cliente, recibiendo argumentos, objetos, caracteres, numeros....
+        Utilidades:
+        -Evaluar variables
+        -Control de error
+        ej:
+        */
+        console.log('Sigo aqui.....!');
+        /*
+        LA CONCATENACION, Hay que diferenciarla de su herencia conotativo del simbolo +
+        Encontraremos concatenacion cuando alguno de los argumentos no sea un numero (number)
+        */
+        console.log('Sigo aqui' + (3 + 5));
+        /*
+        document.write();
+        Muestra los caracteres y argumentos sobre el html
+        Utilidades:
+        -Mostrar contenido,informacion...
+        🔑conclusiones:
+        i.Eficiencia del codigo
+        ej:
+        */
+        document.write('<h2> Perdonad, pero aun sigo aquí.....! </h2> ');
+
+        /*
+        alert, para mejorar la estetica y poder utilizar la potencialidad del alert, nos nutrimos
+        de determinados frameWorks
+        SweetAlert(https://sweetalert.js.org/guides)
+        */
+        swal(
+            {
+                title: "Mi primer Script DECENTE!",
+                text: "Presiona para Agradecermelo!",
+                icon: "success",
+                button: "Gracias, que ilusión!",
+            }
+        );
+    </script>
+</body>
+
+</html>

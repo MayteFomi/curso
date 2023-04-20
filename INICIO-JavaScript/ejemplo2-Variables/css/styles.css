@@ -1,0 +1,25 @@
+/*
+efectos que nos ofrece sweetAlert, entre otros
+1.fondo
+2.Ventana
+3.footer
+*/
+.swal-overlay {
+    background-color: rgba(23, 24, 24, 0.45);
+  }
+  .swal-modal{
+    background-color: gainsboro;
+    border: 2px solid rgb(69, 176, 94);
+    border-radius: 25px;
+  }
+  .swal-footer{
+    border-top: 1px solid black;
+  }
+  h2{
+    text-align: center;
+    color: crimson;
+    font-size: larger;
+    font-weight: bold;
+   
+  }
+  

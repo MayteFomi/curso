@@ -1,0 +1,34 @@
+/*
+Ejecuciones de estilo nativos;
+1º utilizando el selector '.' , se define la conexion
+con el atributo class="" en html
+2º llamando a la etiqueta
+*/
+h2{
+  text-align: center;
+  color: crimson;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.cambioColor{
+    background-color:rgba(2, 41, 32, 0.45);
+}
+
+/*
+efectos que nos ofrece sweetAlert, entre otros
+1.fondo
+2.Ventana
+3.footer
+*/
+.swal-overlay {
+    background-color: rgba(205, 239, 231, 0.45);
+  }
+  .swal-modal{
+    background-color: gainsboro;
+    border: 2px solid black;
+    border-radius: 25px;
+  }
+  .swal-footer{
+    border-top: 1px solid black;
+  }
