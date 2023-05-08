@@ -1,0 +1,44 @@
+.centrado{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#reloj{
+ 
+    font-family: sans-serif,'Courier New', Courier, monospace;
+    color: black;
+    font-weight: 500;
+
+}
+
+#calendario{
+
+    font-family: sans-serif,'Courier New', Courier, monospace;
+    color: black;
+    font-weight: 400;
+
+}
+
+/* Desig, entendido como analisis de visualizacion segun dispositivo, para ello
+utilizaremos una directiva propia de css, con decorador @
+@media screen {
+modificiaciones de pantalla llamando a la modificacion del selector    
+}
+*/
+@media (min-width:391px) {
+    #reloj{
+        font-size: 8rem;
+    }
+    #calendario{
+        font-size: 2rem;
+    }
+}
+@media (max-width:390px) {
+    #reloj{
+        font-size: 36px;
+    }
+    #calendario{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,14 @@
+#resultado{
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 4px 4px gray;
+    background-image: url(https://w7.pngwing.com/pngs/373/171/png-transparent-blackboard-bulletin-board-whiteboard-green-white-board-s-angle-rectangle-grass-thumbnail.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    width: 600px; ;
+    height: 410px;
+    padding: 40px;
+}

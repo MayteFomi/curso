@@ -1,0 +1,14 @@
+/*
+El selector#, asociado en htlm como un id
+*/
+#resultado{
+    text-align: center;
+    margin: 0 auto;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(29, 206, 6);
+    text-shadow: 1px 2px 4px rgb(151, 143, 143);
+    width: 160px;
+    border-radius: 6px;
+    
+}

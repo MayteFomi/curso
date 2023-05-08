@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion</title>
+    <!--Confirguracion de enlaces a las librerias Bootstrap & SweetAlert ⇓-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <!--
+                        ====================
+                        ESTRUCTURAS CONTROL
+                        ===================
+            Dichas estructuras nos permiten tomar decisiones en funcion de determinadas
+            condiciones que inicialmente hayamos definido; para que ejecutar uno u otro 
+            codigo dependiendo de la valoracion de dichas condiciones (true/false)
+
+            Tipos de estructuras
+
+            1º if else
+            2º switch case
+            3º for
+                3.1 for in
+                3.2 for of
+                3.3 for each( => )
+            4º while Do While
+
+            
+            ===========
+            1º if_else
+            ===========
+        Definiremos a paratir de su sintaxis:
+    Se evalua la validadcion o falsedad de su condicion 
+    if (condition = evalua si es true o false, siendo true ejecutará la acotacion de su funcionalidad) {
+        [sentencias 1, .2..n, se iran ejecutando mientras la condicion if sea true]
+    } else {
+        [sentencia1.2...n, se ejecutarán siempre que la condicion if sea false]
+    }
+    -->
+    
+    <script>
+        /* var numero = false;  */
+        var numero = 4;
+        /*
+        Advertencia:
+        la consideracion de true en las estructuras de control, solo reperctue a la estructura de control*/
+        /* if (numero >=5) {
+            swal('Numero es mayor o igual a 5'); 
+        } else {
+            swal('es menor que 5')
+        } */
+
+        //Anidamos variables nuevas, dentro de la estructura & como sale el primer resultado que identifica como true
+        var numero2 = 6;
+     
+        if (numero>=5) {
+            swal('Numero es mayor o igual que 5');
+        } else if(numero2 > 5) {
+            swal('numero 2 es mayor o igual que 5');
+        }else{
+            swal('ambos numeros son menores que 5');
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for in</title>
+</head>
+
+<body>
+    <!--
+         A N T O N I O (7 caracteres)
+         1 2 3 4 5 6 7 (cantidad)
+         0 1 2 3 4 5 6 (posición) ⇐ for
+          for (const key in object) {  //const (guardamos el recorrido) in  (recorrido de la propiedad. conjunto de datos)
+            if (Object.hasOwnProperty.call(object, key)) {
+                const element = object[key];
+                
+            }
+        }
+    -->
+    <script>
+
+        var meses2 = {
+            enero: 31,
+            febrero: 28,
+            marzo: 31,
+            abril: 30,
+            mayo: 31,
+            junio: 30,
+            julio: 31,
+            agosto: 31
+
+        }//Configuración ordenada de datos-Estructura de Array, configuración json, valores y propiedades
+
+        for (dias in meses2) { //True, el nº de la propoa colección
+            document.write(dias + '<br>')
+
+        }
+        //Accedemos a la propiedad del objeto
+        for (dias in meses2) {
+
+console.log('El mes: ' + dias+ ' tiene ' + meses2[dias]+ ' dias ')
+
+        }
+        
+    </script>
+
+</body>
+
+</html>
